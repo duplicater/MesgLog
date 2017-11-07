@@ -7,6 +7,7 @@
 //
 
 #import "MesgLogViewController.h"
+#import "MesgLog.h"
 
 @interface MesgLogViewController ()
 

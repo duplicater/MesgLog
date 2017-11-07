@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MesgLog_Example' do
+  pod 'MesgLog', :path => '../'
+
+  target 'MesgLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

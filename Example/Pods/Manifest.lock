@@ -1,0 +1,16 @@
+PODS:
+  - MesgLog (2.6.7)
+
+DEPENDENCIES:
+  - MesgLog (from `../`)
+
+EXTERNAL SOURCES:
+  MesgLog:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MesgLog: 36d5ff0467d25efab7d718f20243d06b4338a2c9
+
+PODFILE CHECKSUM: c00674cc0dbabd44ffe0396afe7d2726710c8bb0
+
+COCOAPODS: 1.3.1

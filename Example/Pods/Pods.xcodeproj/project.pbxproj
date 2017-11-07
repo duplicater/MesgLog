@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		482AECC8B09B5E2A9521D4BE49F00657 /* Pods-MesgLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE31D847680559F292C136729F085C2 /* Pods-MesgLog_Tests-dummy.m */; };
+		A65BD7C65A9E66F92295BCC0F8164091 /* Pods-MesgLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8F36BEC9B5B5CCCDBB349D4AB5CED9 /* Pods-MesgLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B97A35034DB9FFC437DCFCBACF679C22 /* Pods-MesgLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 803909BFA8C3AD9B2BA30ABADBDC1DD9 /* Pods-MesgLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC794D6830DE8700D8AC3DB958455CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CC83FE99AB16291BD873F2F13C214FD3 /* Pods-MesgLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE997E0739F112578A955B18A2AAADD9 /* Pods-MesgLog_Example-dummy.m */; };
+		FB5793358DD1416CEA98A139EB75D1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10651EF054BB2F9BBB3192CBD9E76D10 /* Pods_MesgLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MesgLog_Example.framework; path = "Pods-MesgLog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC2F5C0D499DF75BFBA271C097B5933 /* Pods-MesgLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MesgLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27A7374B9FFD27B3BD83376740F27C7E /* Pods-MesgLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MesgLog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2D4AD16DAA5CB53103086CD2ECA95110 /* Pods-MesgLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MesgLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A9BC582BC4F2391ECA5F08C9A86DC56 /* Pods-MesgLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MesgLog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5D3DFB0F023AB56BA2654D06B0BC3818 /* Pods-MesgLog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MesgLog_Tests-resources.sh"; sourceTree = "<group>"; };
+		653D89C134622419C51934FB47BC87DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BE31D847680559F292C136729F085C2 /* Pods-MesgLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MesgLog_Tests-dummy.m"; sourceTree = "<group>"; };
+		803909BFA8C3AD9B2BA30ABADBDC1DD9 /* Pods-MesgLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MesgLog_Example-umbrella.h"; sourceTree = "<group>"; };
+		87720CED11DC7972C4D034D24C6FCBB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8914D3BD628C912E88E0AAF13269FACA /* libMesgLog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libMesgLog.a; sourceTree = "<group>"; };
+		902EE9D50AA336DA77C1D7C70E2C72BD /* Pods-MesgLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MesgLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99260FAC32D4A5264FA5452ED53A34EF /* Pods-MesgLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MesgLog_Example.modulemap"; sourceTree = "<group>"; };
+		9C5AD43D2C518A5DEF6A6EA09A7D0778 /* Pods-MesgLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MesgLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C5CF04489419362D41A5B803A88B5EB0 /* Pods-MesgLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MesgLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C8DE5EB4CDF6E1A74C9EABB688725198 /* Pods-MesgLog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MesgLog_Example-resources.sh"; sourceTree = "<group>"; };
+		DDC5294BC20EF7750411B9793182A453 /* Pods-MesgLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MesgLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF1D8FF2182FA2089ED888209F782560 /* Pods-MesgLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MesgLog_Tests.modulemap"; sourceTree = "<group>"; };
+		E9086735CD7DA1E8DFB92CE870C6C934 /* Pods_MesgLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MesgLog_Tests.framework; path = "Pods-MesgLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA409CA7AE122484EA795FCFF277953 /* Pods-MesgLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MesgLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE997E0739F112578A955B18A2AAADD9 /* Pods-MesgLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MesgLog_Example-dummy.m"; sourceTree = "<group>"; };
+		F5CA36AB7359A94818BEA794EB96DEDF /* MesgLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MesgLog.h; path = include/MesgLog/MesgLog.h; sourceTree = "<group>"; };
+		FA8F36BEC9B5B5CCCDBB349D4AB5CED9 /* Pods-MesgLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MesgLog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FD905CDC8E7539AAAF5DF66A5F0D27DC /* Pods-MesgLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MesgLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA295026F09C5A82C93AC4AA2E990F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC794D6830DE8700D8AC3DB958455CE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1002FE7BC550809E20A1FA64B9BA6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5793358DD1416CEA98A139EB75D1FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0847CCDE5AF486970934395F3BE9CC00 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BA0719DFA0FB9F00AA9730017E46679 /* Pods-MesgLog_Example */,
+				FC8D8A0F3E97700818E52E61FC11638E /* Pods-MesgLog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3CAACD52B6AFFBF4446485130B0AE5F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8914D3BD628C912E88E0AAF13269FACA /* libMesgLog.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BA0719DFA0FB9F00AA9730017E46679 /* Pods-MesgLog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				653D89C134622419C51934FB47BC87DB /* Info.plist */,
+				99260FAC32D4A5264FA5452ED53A34EF /* Pods-MesgLog_Example.modulemap */,
+				1EC2F5C0D499DF75BFBA271C097B5933 /* Pods-MesgLog_Example-acknowledgements.markdown */,
+				EAA409CA7AE122484EA795FCFF277953 /* Pods-MesgLog_Example-acknowledgements.plist */,
+				EE997E0739F112578A955B18A2AAADD9 /* Pods-MesgLog_Example-dummy.m */,
+				27A7374B9FFD27B3BD83376740F27C7E /* Pods-MesgLog_Example-frameworks.sh */,
+				C8DE5EB4CDF6E1A74C9EABB688725198 /* Pods-MesgLog_Example-resources.sh */,
+				803909BFA8C3AD9B2BA30ABADBDC1DD9 /* Pods-MesgLog_Example-umbrella.h */,
+				C5CF04489419362D41A5B803A88B5EB0 /* Pods-MesgLog_Example.debug.xcconfig */,
+				3A9BC582BC4F2391ECA5F08C9A86DC56 /* Pods-MesgLog_Example.release.xcconfig */,
+			);
+			name = "Pods-MesgLog_Example";
+			path = "Target Support Files/Pods-MesgLog_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BF26A3B5B1DA8E2ED39A1ADCAE239E8D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C2FA816B2CD3C7A2CC23464D7CCBA02C /* Products */,
+				0847CCDE5AF486970934395F3BE9CC00 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9173761A7109A40C198C4D11CEFED283 /* MesgLog */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA36AB7359A94818BEA794EB96DEDF /* MesgLog.h */,
+				3CAACD52B6AFFBF4446485130B0AE5F1 /* Frameworks */,
+			);
+			name = MesgLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF26A3B5B1DA8E2ED39A1ADCAE239E8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9173761A7109A40C198C4D11CEFED283 /* MesgLog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C2FA816B2CD3C7A2CC23464D7CCBA02C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10651EF054BB2F9BBB3192CBD9E76D10 /* Pods_MesgLog_Example.framework */,
+				E9086735CD7DA1E8DFB92CE870C6C934 /* Pods_MesgLog_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FC8D8A0F3E97700818E52E61FC11638E /* Pods-MesgLog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				87720CED11DC7972C4D034D24C6FCBB2 /* Info.plist */,
+				DF1D8FF2182FA2089ED888209F782560 /* Pods-MesgLog_Tests.modulemap */,
+				2D4AD16DAA5CB53103086CD2ECA95110 /* Pods-MesgLog_Tests-acknowledgements.markdown */,
+				DDC5294BC20EF7750411B9793182A453 /* Pods-MesgLog_Tests-acknowledgements.plist */,
+				7BE31D847680559F292C136729F085C2 /* Pods-MesgLog_Tests-dummy.m */,
+				902EE9D50AA336DA77C1D7C70E2C72BD /* Pods-MesgLog_Tests-frameworks.sh */,
+				5D3DFB0F023AB56BA2654D06B0BC3818 /* Pods-MesgLog_Tests-resources.sh */,
+				FA8F36BEC9B5B5CCCDBB349D4AB5CED9 /* Pods-MesgLog_Tests-umbrella.h */,
+				FD905CDC8E7539AAAF5DF66A5F0D27DC /* Pods-MesgLog_Tests.debug.xcconfig */,
+				9C5AD43D2C518A5DEF6A6EA09A7D0778 /* Pods-MesgLog_Tests.release.xcconfig */,
+			);
+			name = "Pods-MesgLog_Tests";
+			path = "Target Support Files/Pods-MesgLog_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14C98BEE2A6CD389D688DC9A61484877 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65BD7C65A9E66F92295BCC0F8164091 /* Pods-MesgLog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F7BB641F87452900627593F428F3FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97A35034DB9FFC437DCFCBACF679C22 /* Pods-MesgLog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BD88CF360197CE9AD975DCC655A52738 /* Pods-MesgLog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC0C600FE5723E3E055E7DCA47CAAE7 /* Build configuration list for PBXNativeTarget "Pods-MesgLog_Example" */;
+			buildPhases = (
+				88F82AFF499D50E4D2EBF6740BA6E8A0 /* Sources */,
+				DA295026F09C5A82C93AC4AA2E990F5B /* Frameworks */,
+				A8F7BB641F87452900627593F428F3FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MesgLog_Example";
+			productName = "Pods-MesgLog_Example";
+			productReference = 10651EF054BB2F9BBB3192CBD9E76D10 /* Pods_MesgLog_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F68EA8F2038551515BF622D5B0D1C06A /* Pods-MesgLog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3245054894938B40FA1D700403D48E05 /* Build configuration list for PBXNativeTarget "Pods-MesgLog_Tests" */;
+			buildPhases = (
+				A667F3B275F1DF6FEC62A7AEFD14A394 /* Sources */,
+				DB1002FE7BC550809E20A1FA64B9BA6B /* Frameworks */,
+				14C98BEE2A6CD389D688DC9A61484877 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MesgLog_Tests";
+			productName = "Pods-MesgLog_Tests";
+			productReference = E9086735CD7DA1E8DFB92CE870C6C934 /* Pods_MesgLog_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C2FA816B2CD3C7A2CC23464D7CCBA02C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD88CF360197CE9AD975DCC655A52738 /* Pods-MesgLog_Example */,
+				F68EA8F2038551515BF622D5B0D1C06A /* Pods-MesgLog_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88F82AFF499D50E4D2EBF6740BA6E8A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83FE99AB16291BD873F2F13C214FD3 /* Pods-MesgLog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A667F3B275F1DF6FEC62A7AEFD14A394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482AECC8B09B5E2A9521D4BE49F00657 /* Pods-MesgLog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		41623ABCEB1F6308E5540AF043C24564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5AD43D2C518A5DEF6A6EA09A7D0778 /* Pods-MesgLog_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MesgLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MesgLog_Tests/Pods-MesgLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MesgLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		757E1594F387EF22D208B68396AFC42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CF04489419362D41A5B803A88B5EB0 /* Pods-MesgLog_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MesgLog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MesgLog_Example/Pods-MesgLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MesgLog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F33A5AC6E0C421B6BA45BC7DDA8FDA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9BC582BC4F2391ECA5F08C9A86DC56 /* Pods-MesgLog_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MesgLog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MesgLog_Example/Pods-MesgLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MesgLog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7C346240379AD393C21B8CEE1CB98F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD905CDC8E7539AAAF5DF66A5F0D27DC /* Pods-MesgLog_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MesgLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MesgLog_Tests/Pods-MesgLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MesgLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3245054894938B40FA1D700403D48E05 /* Build configuration list for PBXNativeTarget "Pods-MesgLog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C346240379AD393C21B8CEE1CB98F6 /* Debug */,
+				41623ABCEB1F6308E5540AF043C24564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC0C600FE5723E3E055E7DCA47CAAE7 /* Build configuration list for PBXNativeTarget "Pods-MesgLog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757E1594F387EF22D208B68396AFC42F /* Debug */,
+				F33A5AC6E0C421B6BA45BC7DDA8FDA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

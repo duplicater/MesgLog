@@ -1,0 +1,6 @@
+framework module MesgLog {
+  umbrella header "MesgLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

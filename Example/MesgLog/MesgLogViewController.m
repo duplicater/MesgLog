@@ -19,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    LogParams *params = [LogParams init];
+    params.cov = click;
+    params.ltype = view;
+    params.domain = @"demo";
+    params.curl = @"4450";
+    params.rurl = @"??";
+    
+    [[MesgLog shareInstance] sendLogTrackingView:params];
 }
 
 - (void)didReceiveMemoryWarning

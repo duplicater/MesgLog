@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MesgLog'
-  s.version          = '2.6.7'
+  s.version          = '3.0.0'
   s.summary          = 'lib tracking.'
   s.description      = 'Tracking Apps Sohagame'
   s.homepage         = 'https://github.com/duplicater/MesgLog.git'

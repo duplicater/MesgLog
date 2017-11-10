@@ -1,5 +1,5 @@
 PODS:
-  - MesgLog (2.6.7)
+  - MesgLog (3.0.0)
 
 DEPENDENCIES:
   - MesgLog (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MesgLog: 36d5ff0467d25efab7d718f20243d06b4338a2c9
+  MesgLog: 06dcd0915d935e47b811fa60545c48cdb651c552
 
 PODFILE CHECKSUM: c00674cc0dbabd44ffe0396afe7d2726710c8bb0
 

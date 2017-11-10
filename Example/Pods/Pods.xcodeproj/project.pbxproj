@@ -27,19 +27,20 @@
 		7BE31D847680559F292C136729F085C2 /* Pods-MesgLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MesgLog_Tests-dummy.m"; sourceTree = "<group>"; };
 		803909BFA8C3AD9B2BA30ABADBDC1DD9 /* Pods-MesgLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MesgLog_Example-umbrella.h"; sourceTree = "<group>"; };
 		87720CED11DC7972C4D034D24C6FCBB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8914D3BD628C912E88E0AAF13269FACA /* libMesgLog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libMesgLog.a; sourceTree = "<group>"; };
 		902EE9D50AA336DA77C1D7C70E2C72BD /* Pods-MesgLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MesgLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		912967AB11C20DE51C0C1411ACA2C716 /* LogParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LogParams.h; path = include/MesgLog/LogParams.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99260FAC32D4A5264FA5452ED53A34EF /* Pods-MesgLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MesgLog_Example.modulemap"; sourceTree = "<group>"; };
 		9C5AD43D2C518A5DEF6A6EA09A7D0778 /* Pods-MesgLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MesgLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C30A0FA38A38B154201F42F347722D9B /* libMesgLog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libMesgLog.a; sourceTree = "<group>"; };
 		C5CF04489419362D41A5B803A88B5EB0 /* Pods-MesgLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MesgLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C8DE5EB4CDF6E1A74C9EABB688725198 /* Pods-MesgLog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MesgLog_Example-resources.sh"; sourceTree = "<group>"; };
+		DA54E2943CEFC7AFC82795EA44C28971 /* MesgLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MesgLog.h; path = include/MesgLog/MesgLog.h; sourceTree = "<group>"; };
 		DDC5294BC20EF7750411B9793182A453 /* Pods-MesgLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MesgLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF1D8FF2182FA2089ED888209F782560 /* Pods-MesgLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MesgLog_Tests.modulemap"; sourceTree = "<group>"; };
 		E9086735CD7DA1E8DFB92CE870C6C934 /* Pods_MesgLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MesgLog_Tests.framework; path = "Pods-MesgLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA409CA7AE122484EA795FCFF277953 /* Pods-MesgLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MesgLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE997E0739F112578A955B18A2AAADD9 /* Pods-MesgLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MesgLog_Example-dummy.m"; sourceTree = "<group>"; };
-		F5CA36AB7359A94818BEA794EB96DEDF /* MesgLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MesgLog.h; path = include/MesgLog/MesgLog.h; sourceTree = "<group>"; };
 		FA8F36BEC9B5B5CCCDBB349D4AB5CED9 /* Pods-MesgLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MesgLog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FD905CDC8E7539AAAF5DF66A5F0D27DC /* Pods-MesgLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MesgLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,12 +74,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3CAACD52B6AFFBF4446485130B0AE5F1 /* Frameworks */ = {
+		4CDB1AAF5FCEAD5F9BA9237FA878EA3D /* MesgLog */ = {
 			isa = PBXGroup;
 			children = (
-				8914D3BD628C912E88E0AAF13269FACA /* libMesgLog.a */,
+				912967AB11C20DE51C0C1411ACA2C716 /* LogParams.h */,
+				DA54E2943CEFC7AFC82795EA44C28971 /* MesgLog.h */,
+				D171CC4D3D89601E725F3F81F024FF79 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = MesgLog;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6BA0719DFA0FB9F00AA9730017E46679 /* Pods-MesgLog_Example */ = {
@@ -99,25 +103,23 @@
 			path = "Target Support Files/Pods-MesgLog_Example";
 			sourceTree = "<group>";
 		};
+		7D527FF7C7758746A88C5B64FB39994F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB1AAF5FCEAD5F9BA9237FA878EA3D /* MesgLog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BF26A3B5B1DA8E2ED39A1ADCAE239E8D /* Development Pods */,
+				7D527FF7C7758746A88C5B64FB39994F /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C2FA816B2CD3C7A2CC23464D7CCBA02C /* Products */,
 				0847CCDE5AF486970934395F3BE9CC00 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9173761A7109A40C198C4D11CEFED283 /* MesgLog */ = {
-			isa = PBXGroup;
-			children = (
-				F5CA36AB7359A94818BEA794EB96DEDF /* MesgLog.h */,
-				3CAACD52B6AFFBF4446485130B0AE5F1 /* Frameworks */,
-			);
-			name = MesgLog;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -128,14 +130,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF26A3B5B1DA8E2ED39A1ADCAE239E8D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9173761A7109A40C198C4D11CEFED283 /* MesgLog */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		C2FA816B2CD3C7A2CC23464D7CCBA02C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +137,14 @@
 				E9086735CD7DA1E8DFB92CE870C6C934 /* Pods_MesgLog_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D171CC4D3D89601E725F3F81F024FF79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C30A0FA38A38B154201F42F347722D9B /* libMesgLog.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {

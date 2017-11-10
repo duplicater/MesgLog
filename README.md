@@ -27,3 +27,17 @@ lecuong.bka@gmail.com, lecuong.bka@gmail.com
 ## License
 
 MesgLog is available under the MIT license. See the LICENSE file for more info.
+## How to use
+1. import library
+    #import "MesgLog.h"
+
+2. create params for log:
+    LogParams *params = [LogParams init];
+    params.cov = click;
+    params.ltype = view;
+    params.domain = @"demo";
+    params.curl = @"4450";
+    params.rurl = @"??";
+    
+3. send log:
+     [[MesgLog shareInstance] sendLogTrackingView:params];

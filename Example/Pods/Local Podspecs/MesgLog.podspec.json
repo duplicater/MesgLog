@@ -1,6 +1,6 @@
 {
   "name": "MesgLog",
-  "version": "2.6.7",
+  "version": "3.0.0",
   "summary": "lib tracking.",
   "description": "Tracking Apps Sohagame",
   "homepage": "https://github.com/duplicater/MesgLog.git",
@@ -12,8 +12,7 @@
     "lecuong.bka@gmail.com": "lecuong.bka@gmail.com"
   },
   "source": {
-    "git": "https://github.com/duplicater/MesgLog.git",
-    "tag": "2.6.7"
+    "http": "https://github.com/duplicater/MesgLog/releases/download/3.0.0/MesgLog.zip"
   },
   "platforms": {
     "ios": "8.0"
